@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web Technologies" />
+    <meta
+      name="keywords"
+      content="web technologies, html, css, react, react library, react js"
+    />
+    <meta name="author" content="Kavindu Jayarathne" />
+    <title>React Library</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="../public/images/favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <p class="title">React</p>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="topic.html">Overview</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="enhancements.html">Enhancements</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div id="second-enhancement" class="form-container">
+        <form method="post" action="">
+          <h2>Personal Details</h2>
+          <div class="box">
+            <input
+              type="text"
+              id="fname"
+              name="firstName"
+              pattern="[A-Za-z\s\-]{1,30}"
+              title="First name should only contain letters, hyphens, and spaces. Maximum 30 characters."
+              maxlength="30"
+              required
+            />
+            <label for="fname">First Name</label>
+          </div>
+
+          <div class="box">
+            <input
+              type="text"
+              id="lname"
+              name="lastName"
+              pattern="[A-Za-z\s\-]{1,30}"
+              title="Last name should only contain letters, hyphens, and spaces. Maximum 30 characters."
+              maxlength="30"
+              required
+            />
+            <label for="lname">Last Name</label>
+          </div>
+
+          <div class="box">
+            <input
+              type="text"
+              id="stdnumber"
+              name="studentNumber"
+              title="Student number must be either 7 or 10 digits."
+              required
+            />
+            <label for="stdnumber">Student Number</label>
+          </div>
+
+          <h2>Questions</h2>
+
+          <fieldset class="quiz-group">
+            <legend>Question 1</legend>
+            <label for="syntax"
+              >In react, What syntax extension allows writing html like code
+              within JavaScript?</label
+            >
+
+            <div class="input-style">
+              <input
+                type="text"
+                id="syntax"
+                name="react-syntax-extension"
+                placeholder="Type your answer..."
+                required
+              />
+              <span></span>
+            </div>
+          </fieldset>
+
+          <fieldset class="quiz-group">
+            <legend>Question 2</legend>
+            <p>Which of the following is a feature of React?</p>
+
+            <div>
+              <input
+                type="radio"
+                id="oop"
+                name="react-feature"
+                value="Object Oriented Programming "
+                required
+              />
+              <label for="oop">Object Oriented Programming</label>
+            </div>
+
+            <div>
+              <input
+                type="radio"
+                id="cba"
+                name="react-feature"
+                value="Component Based Architecture"
+              />
+              <label for="cba">Component Based Architecture</label>
+            </div>
+
+            <div>
+              <input
+                type="radio"
+                id="fp"
+                name="react-feature"
+                value="Functional Programming"
+              />
+              <label for="fp">Functional Programming</label>
+            </div>
+
+            <div>
+              <input
+                type="radio"
+                id="pp"
+                name="react-feature"
+                value="Procedural Programming"
+              />
+              <label for="pp">Procedural Programming</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="quiz-group">
+            <legend>Question 3</legend>
+            <p>Which of the following are lifecycle methods in React?</p>
+            <div>
+              <input
+                type="checkbox"
+                id="render"
+                name="react-lifecycle-methods"
+                value="render()"
+              />
+              <label for="render">render()</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="componentdidmount"
+                name="react-lifecycle-methods"
+                value="ComponentDidMount()"
+              />
+              <label for="componentdidmount">ComponentDidMount()</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="shouldcomponentupdate"
+                name="react-lifecycle-methods"
+                value="shouldComponentUpdate()"
+              />
+              <label for="shouldcomponentupdate">shouldComponentUpdate()</label>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="usestate"
+                name="react-lifecycle-methods"
+                value="useState()"
+              />
+              <label for="usestate">useState()</label>
+            </div>
+          </fieldset>
+
+          <fieldset class="quiz-group">
+            <legend>Question 4</legend>
+            <label for="hooks">
+              Which hook should be used to manage state in functional
+              components?
+            </label>
+            <select id="hooks" name="hook-manage-state">
+              <option value="">Select</option>
+              <option value="useEffect">useEffect</option>
+              <option value="useState">useState</option>
+              <option value="useContext">useContext</option>
+              <option value="useReducer">useReducer</option>
+            </select>
+          </fieldset>
+
+          <fieldset class="quiz-group">
+            <legend>Question 5</legend>
+            <label for="year">In what year was React initially released?</label>
+            <div class="input-style">
+              <input
+                type="number"
+                id="year"
+                name="release-date"
+                min="2010"
+                max="2015"
+                placeholder="Type the year..."
+                required
+              />
+              <span></span>
+            </div>
+          </fieldset>
+
+          <div class="submit-button">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <div id="quick-links">
+        <h3>Quick List</h3>
+        <ul class="nav__list footer__nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="topic.html">Overview</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="enhancements.html">Enhancements</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

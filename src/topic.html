@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Web Technologies" />
+    <meta
+      name="keywords"
+      content="web technologies, html, css, react, react library, react js"
+    />
+    <meta name="author" content="Kavindu Jayarathne" />
+    <title>React Library</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="icon" href="../public/images/favicon.svg" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <p class="title">React</p>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="topic.html">Overview</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="enhancements.html">Enhancements</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <figure>
+        <img src="/public/images/React-Symbol.png" alt="react-symbol" />
+        <figcaption>React Symbol</figcaption>
+      </figure>
+
+      <section class="section">
+        <h1>What is React?</h1>
+        <p>
+          React.js, commonly just called React, is a popular JavaScript library
+          used for building user interfaces, particularly for web applications.
+          Developed by Facebook (now Meta Platforms), it was first released in
+          2013 and has since become one of the most widely used tools in web
+          development.
+        </p>
+      </section>
+
+      <section class="section">
+        <h1>What is the Purpose of React?</h1>
+        <p>
+          The purpose of React.js is to provide an efficient and flexible way to
+          build interactive user interfaces in web applications. By organizing
+          the interface into reusable components, React helps developers manage
+          complex UIs by breaking them into smaller, manageable pieces that can
+          be developed, maintained, and tested independently.
+        </p>
+        <section class="sub-section">
+          <h2>The key purposes and advantages of using React</h2>
+          <ol>
+            <li>Build Complex Interfaces Easily</li>
+            <li>Efficient Updates</li>
+            <li>Declarative Code</li>
+            <li>Flexibility and Integration</li>
+            <li>Enhanced Productivity and Maintenance</li>
+          </ol>
+        </section>
+      </section>
+
+      <section class="section">
+        <h1>Functions and Features</h1>
+        <p>
+          React.js is structured around several core functions and features that
+          make it powerful for developing interactive web applications. These
+          features focus on improving usability, maintainability, and
+          performance.
+        </p>
+        <section id="first-enhancement" class="sub-section">
+          <h2 style="margin-bottom: 3.2rem">
+            Major points and functions that define React
+          </h2>
+          <dl class="container">
+            <div class="card card1">
+              <dt>Virtual DOM</dt>
+              <dd>
+                Instead of manipulating the browser's DOM directly, React
+                creates a virtual DOM in memory.
+              </dd>
+            </div>
+
+            <div class="card card2">
+              <dt>Props and State</dt>
+              <dd>
+                Components receive data through props passed down from parent
+                components and manage their own data with state
+              </dd>
+            </div>
+
+            <div class="card card3">
+              <dt>Lifecycle Methods</dt>
+              <dd>
+                React components have lifecycle methods that are executed at
+                specific points during a component's existence in the
+                application, such as before it renders, after it renders, and
+                before it is removed from the DOM.
+              </dd>
+            </div>
+
+            <div class="card card4">
+              <dt>Hooks</dt>
+              <dd>
+                Introduced in React 16.8, hooks are functions that let you “hook
+                into” React state and lifecycle features from function
+                components.
+              </dd>
+            </div>
+          </dl>
+        </section>
+      </section>
+
+      <section class="section">
+        <h1>Who Developed React?</h1>
+        <p>
+          Jordan Walke and the team at Facebook are credited with the
+          development of React. Walke created the first prototype which was
+          influenced by his work on FaxJS, another earlier JavaScript framework.
+        </p>
+        <h2>When?</h2>
+        <p>
+          React was first used internally in 2011 and made open-source in May
+          2013.
+        </p>
+        <h2>Why?</h2>
+        <p>
+          The development of React was driven by Facebook's need for a
+          high-performance user interface library that could handle the dynamic
+          and high-volume updates inherent in their increasingly complex
+          applications like the Facebook newsfeed. Traditional data binding
+          methods used in other frameworks could not efficiently handle such
+          frequent updates. React introduced a virtual DOM that would allow
+          Facebook to improve the performance of their applications by only
+          re-rendering components in the DOM that had actually changed, rather
+          than reloading the entire view every time a single change was made.
+        </p>
+      </section>
+
+      <section class="section">
+        <h1>Who are Responsible for Managing React?</h1>
+        <p>
+          React.js is primarily managed and maintained by a team at Meta
+          Platforms, Inc. (formerly Facebook), which includes both Facebook
+          employees and a community of external contributors. Over the years,
+          React has grown significantly in popularity and usage, which has
+          attracted a large open-source community that contributes to its
+          development, documentation, and ecosystem.
+        </p>
+      </section>
+
+      <section class="section">
+        <h1>React's Growth, Decline and the Future</h1>
+        <h2>Growth</h2>
+        <p>
+          React.js has experienced significant growth due to its efficient
+          virtual DOM, component-based architecture, and adoption by major
+          companies like Facebook and Airbnb. The expansion to mobile
+          development with React Native has further boosted its popularity.
+        </p>
+        <h2>Decline</h2>
+        <p>
+          However, React faces challenges from competing frameworks like Angular
+          and Vue.js, and evolving web standards like Web Components. Managing
+          large-scale applications can also be complex, potentially slowing its
+          adoption.
+        </p>
+        <h2>Future</h2>
+        <p>
+          Despite these challenges, React's future looks promising. Ongoing
+          improvements, strong market demand for React skills, and innovations
+          like Hooks and server-side rendering with Next.js suggest that React
+          will continue to be a key player in web development.
+        </p>
+      </section>
+
+      <section class="section">
+        <h1>Related Technologies and the Comparison</h1>
+        <p>
+          React.js is a key player in the web development ecosystem, often
+          compared with other front-end frameworks and libraries to determine
+          the best fit for project requirements. Below is a comparison
+          highlighting key features of React.js relative to other prominent
+          technologies: Angular and Vue.js.
+        </p>
+        <section class="sub-section">
+          <div class="table-container">
+            <table class="comparison-table">
+              <caption class="table-title">
+                Comparison of Web Development Technologies
+              </caption>
+              <tr>
+                <th>Feature</th>
+                <th>React.js</th>
+                <th>Angular</th>
+                <th>Vue.js</th>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Type</td>
+                <td data-cell="React.js">Library</td>
+                <td data-cell="Angular">Framework</td>
+                <td data-cell="Vue.js">Framework/Library</td>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Learning Curve</td>
+                <td data-cell="React.js">Moderate</td>
+                <td data-cell="Angular">Steep</td>
+                <td data-cell="Vue.js">Easy</td>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Architecture</td>
+                <td data-cell="React.js">Component-based</td>
+                <td data-cell="Angular">Component-based, fully featured</td>
+                <td data-cell="Vue.js">Component-based</td>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Data Binding</td>
+                <td data-cell="React.js">One-way</td>
+                <td data-cell="Angular">Two-way</td>
+                <td data-cell="Vue.js">Two-way</td>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Performance</td>
+                <td data-cell="React.js">High due to virtual DOM</td>
+                <td data-cell="Angular">Optimized for larger apps</td>
+                <td data-cell="Vue.js">High, similar to React</td>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Community & Support</td>
+                <td data-cell="React.js">Backed by Meta (Facebook)</td>
+                <td data-cell="Angular">Backed by Google</td>
+                <td data-cell="Vue.js">Strong community support</td>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Use Case</td>
+                <td data-cell="React.js">Single-page applications</td>
+                <td data-cell="Angular">Large-scale enterprise applications</td>
+                <td data-cell="Vue.js">Single-page applications</td>
+              </tr>
+              <tr>
+                <td data-cell="Feature">Ecosystem</td>
+                <td data-cell="React.js">Rich with tools and libraries</td>
+                <td data-cell="Angular">Comprehensive</td>
+                <td data-cell="Vue.js">Vibrant and growing</td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="conclusion-container">
+            <div class="conclusion">
+              <h3>Conclusion</h3>
+              <p>
+                Each of these technologies has its own strengths and ideal use
+                cases. React is praised for its flexibility and performance,
+                making it suitable for dynamic, high-performance applications.
+                Angular offers a more holistic solution with built-in features
+                for larger, enterprise-level applications. Vue.js is appreciated
+                for its ease of integration and simplicity, making it a favorite
+                among new developers and smaller projects.
+              </p>
+            </div>
+
+            <aside class="more-info">
+              <h3>Learn More About React</h3>
+              <p>
+                React Official Documentation:
+                <a
+                  target="_blank"
+                  href="https://legacy.reactjs.org/docs/getting-started.html"
+                  ><span>Visit Site</span></a
+                >
+              </p>
+              <p>
+                Codecademy: Learn React
+                <a
+                  target="_blank"
+                  href="https://www.codecademy.com/learn/react-101"
+                  ><span>Visit Site</span></a
+                >
+              </p>
+              <p>
+                React Tutorial for Beginners
+                <a
+                  target="_blank"
+                  href="https://www.youtube.com/watch?v=dGcsHMXbSOA"
+                  ><span>Watch Now</span></a
+                >
+              </p>
+              <p>
+                freeCodeCamp: Full React Course
+                <a
+                  target="_blank"
+                  href="https://www.freecodecamp.org/news/learn-react-course/"
+                  ><span>Visit Site</span></a
+                >
+              </p>
+              <p>
+                Egghead.io React Fundamentals
+                <a
+                  target="_blank"
+                  href="https://egghead.io/courses/the-beginner-s-guide-to-react"
+                  ><span>Visit Site</span></a
+                >
+              </p>
+            </aside>
+          </div>
+        </section>
+      </section>
+    </main>
+
+    <footer>
+      <div id="quick-links">
+        <h3>Quick List</h3>
+        <ul class="nav__list footer__nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="topic.html">Overview</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+          <li><a href="enhancements.html">Enhancements</a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
