@@ -18,7 +18,4 @@
 
 <h2>Demo</h2>
 
-<video controls width="">
-  <source src="https://raw.githubusercontent.com/kavindujayarathne/website-about-react/master/demo/demo-video.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+![Demo Video](https://raw.githubusercontent.com/kavindujayarathne/website-about-react/master/public/demo/demo-video.gif)
